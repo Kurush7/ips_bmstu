@@ -1,0 +1,372 @@
+date: year=1187, month=10, current_era=True
+date: year=1161, current_era=True
+date: year=1165, current_era=True
+date: year=1169, current_era=True
+date: year=1169, current_era=True
+date: year=1174, current_era=True
+date: year=1337, current_era=True
+date: year=1183, current_era=True
+date: year=1187, current_era=True
+date: year=2021, month=6, day=6, current_era=True
+date: year=1188, current_era=True
+date: year=1189, current_era=True
+date: year=1190, current_era=True
+date: year=1190, current_era=True
+date: year=1190, month=9, current_era=True
+date: year=1191, current_era=True
+date: year=1191, month=3, current_era=True
+date: year=1191, current_era=True
+date: year=1191, current_era=True
+date: year=1191, month=4, current_era=True
+date: year=1189, month=5, day=24, current_era=True
+date: month=7, day=2, current_era=True
+date: month=8, day=13, current_era=True
+date: month=8, day=20, current_era=True
+date: year=1189, current_era=True
+date: month=10, day=28, current_era=True
+date: month=11, day=19, current_era=True
+date: year=1190, current_era=True
+date: year=1190, month=1, day=21, current_era=True
+date: year=1190, month=1, current_era=True
+date: month=2, day=14, current_era=True
+date: year=1189, month=5, current_era=True
+date: year=1190, month=3, day=25, current_era=True
+date: year=1190, month=6, day=10, current_era=True
+date: year=1190, month=10, current_era=True
+date: year=1191, month=1, day=20, current_era=True
+date: year=1191, current_era=True
+date: year=1838, current_era=True
+date: year=1191, current_era=True
+date: year=1191, month=7, day=12, current_era=True
+date: month=8, day=23, current_era=True
+date: month=9, day=7, current_era=True
+date: year=1192, current_era=True
+date: year=1192, current_era=True
+date: year=1192, month=9, day=1, current_era=True
+date: year=1192, month=10, current_era=True
+========
+location: name=киликийская армения
+location: name=иерусалим
+location: name=египет
+location: name=сирия
+location: name=восток
+location: name=фатимидский дамаск
+location: name=каир
+location: name=шади
+location: name=египет
+location: name=весь египет
+location: name=египет
+location: name=аморящий
+location: name=сирия
+location: name=халеб
+location: name=мосул
+location: name=малая азия
+location: name=халеб
+location: name=мосул
+location: name=грозный
+location: name=иерусалим
+location: name=лузиньян
+location: name=триполи
+location: name=египет
+location: name=египет
+location: name=сидон
+location: name=который
+location: name=мосул
+location: name=иерусалим
+location: name=кан
+location: name=восток
+location: name=европа
+location: name=запад
+location: name=италия
+location: name=восток
+location: name=германия
+location: name=франция
+location: name=англия
+location: name=христианский восток
+location: name=франция
+location: name=англия
+location: name=анжу
+location: name=мэн
+location: name=анжу
+location: name=мэн
+location: name=франция
+location: name=французский область
+location: name=англия
+location: name=франция
+location: name=англия
+location: name=англия
+location: name=италия
+location: name=сицилия
+location: name=мессина
+location: name=сицилия
+location: name=сицилия
+location: name=мессина
+location: name=констанца
+location: name=сицилия
+location: name=восток
+location: name=сицилия
+location: name=сирия
+location: name=который
+location: name=то
+location: name=сицилия
+location: name=который
+location: name=кипр
+location: name=кипр
+location: name=то
+location: name=кипр
+location: name=кипр
+location: name=кипр
+location: name=британия
+location: name=кипр
+location: name=кипр
+location: name=иерусалим
+location: name=лузиньян
+location: name=лузиньян
+location: name=кипр
+location: name=кипр
+location: name=кипр
+location: name=триполи
+location: name=запад
+location: name=лузиньян
+location: name=триполи
+location: name=тире
+location: name=кипр
+location: name=лузиньян
+location: name=восток
+location: name=египет
+location: name=азия
+location: name=приморский
+location: name=куда
+location: name=азия
+location: name=нюрнберг
+location: name=латинский запад
+location: name=восток
+location: name=византия
+location: name=генуя
+location: name=восток
+location: name=византия
+location: name=византия
+location: name=болгария
+location: name=византия
+location: name=май
+location: name=венгрия
+location: name=константинополь
+location: name=морава
+location: name=софия
+location: name=филиппополь
+location: name=византия
+location: name=морава
+location: name=самый великий
+location: name=сербия
+location: name=византия
+location: name=софия
+location: name=то
+location: name=византия
+location: name=болгария
+location: name=сербия
+location: name=мишо
+location: name=софия
+location: name=филиппополовший
+location: name=сербия
+location: name=константинополь
+location: name=македония
+location: name=софия
+location: name=то
+location: name=софия
+location: name=филиппополовший
+location: name=болгария
+location: name=филиппополь
+location: name=малая азия
+location: name=константинополь
+location: name=болгария
+location: name=то
+location: name=константинополь
+location: name=филиппополь
+location: name=константинополь
+location: name=эта область
+location: name=то
+location: name=адрианополь
+location: name=адрианополь
+location: name=сербское великое
+location: name=адрианополь
+location: name=болгария
+location: name=византия
+location: name=болгария
+location: name=куманный
+location: name=малая азия
+location: name=болгария
+location: name=сербия
+location: name=болгария
+location: name=европа
+location: name=босфор
+location: name=генуя
+location: name=венеция
+location: name=пиза
+location: name=цареград
+location: name=адрианополь
+location: name=малая азия
+location: name=болгария
+location: name=константинополь
+location: name=византия
+location: name=восток
+location: name=морава
+location: name=запавший
+location: name=софия
+location: name=византия
+location: name=византия
+location: name=болгария
+location: name=май
+location: name=регенсбург
+location: name=малая азия
+location: name=босфор
+location: name=западный область
+location: name=малая азия
+location: name=май
+location: name=киликия
+location: name=киликийская армения
+location: name=армения
+location: name=селевкий
+location: name=лампрон
+location: name=кипр
+location: name=сирия
+location: name=германия
+location: name=восток
+location: name=европа
+location: name=тарсуса
+location: name=тире
+location: name=запад
+location: name=то
+location: name=италия
+location: name=венеция
+location: name=генуя
+location: name=пиза
+location: name=восток
+location: name=лузиньян
+location: name=мессина
+location: name=кипр
+location: name=восток
+location: name=кипр
+location: name=кипр
+location: name=лузиньян
+location: name=тир
+location: name=иерусалим
+location: name=то
+location: name=то
+location: name=хайфа
+location: name=хайфа
+location: name=арсуфа
+location: name=сирия
+location: name=иерусалим
+location: name=иерусалим
+location: name=франция
+location: name=мирный
+location: name=иерусалим
+location: name=восток
+location: name=восток
+location: name=христианская европа
+location: name=иерусалим
+location: name=лузиньян
+location: name=лузиньян
+location: name=иерусалим
+location: name=иерусалим
+location: name=азия
+location: name=франция
+location: name=восток
+location: name=восток
+location: name=то
+location: name=аделящий
+location: name=азия
+location: name=яффа
+location: name=тир
+location: name=иерусалим
+location: name=сирия
+location: name=европа
+location: name=италия
+location: name=англия
+location: name=европа
+location: name=вена
+location: name=англия
+========
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=нур, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+name [rule1]:first=салах, mid=ад, last=дин
+========
+name [rule2]:first_name=григорий, regnal_number=VIII, last_name=None
+name [rule2]:first_name=григорий, regnal_number=VIII, last_name=None
+name [rule2]:first_name=климент, regnal_number=III, last_name=None
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=филипп, regnal_number=II, last_name=август
+name [rule2]:first_name=леопольд, regnal_number=V, last_name=бабенберг
+name [rule2]:first_name=ричард, regnal_number=I, last_name=None
+name [rule2]:first_name=левон, regnal_number=II, last_name=None
+name [rule2]:first_name=асад, regnal_number=None, last_name=ад
+name [rule2]:first_name=асад, regnal_number=None, last_name=ад
+name [rule2]:first_name=асад, regnal_number=None, last_name=ад
+name [rule2]:first_name=салах, regnal_number=None, last_name=ад
+name [rule2]:first_name=вильгельм, regnal_number=None, last_name=тирский
+name [rule2]:first_name=роберт, regnal_number=None, last_name=сент
+name [rule2]:first_name=себастьен, regnal_number=None, last_name=мамро
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=филипп, regnal_number=II, last_name=август
+name [rule2]:first_name=генрих, regnal_number=II, last_name=плантагенет
+name [rule2]:first_name=филипп, regnal_number=II, last_name=август
+name [rule2]:first_name=генрих, regnal_number=II, last_name=None
+name [rule2]:first_name=генрих, regnal_number=II, last_name=None
+name [rule2]:first_name=генрих, regnal_number=II, last_name=None
+name [rule2]:first_name=вильгельм, regnal_number=II, last_name=None
+name [rule2]:first_name=генрих, regnal_number=VI, last_name=None
+name [rule2]:first_name=вильгельм, regnal_number=II, last_name=None
+name [rule2]:first_name=генрих, regnal_number=II, last_name=None
+name [rule2]:first_name=исаак, regnal_number=None, last_name=комнин
+name [rule2]:first_name=исаак, regnal_number=None, last_name=комнин
+name [rule2]:first_name=исаак, regnal_number=None, last_name=комнин
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=исаак, regnal_number=None, last_name=ангел
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=бел, regnal_number=III, last_name=None
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=роберт, regnal_number=None, last_name=гвискар
+name [rule2]:first_name=никита, regnal_number=None, last_name=хониат
+name [rule2]:first_name=андроник, regnal_number=None, last_name=кантакузин
+name [rule2]:first_name=исаак, regnal_number=None, last_name=ангел
+name [rule2]:first_name=исаак, regnal_number=None, last_name=ангел
+name [rule2]:first_name=бел, regnal_number=III, last_name=None
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=фридрих, regnal_number=I, last_name=None
+name [rule2]:first_name=исаак, regnal_number=None, last_name=ангел
+name [rule2]:first_name=себастьен, regnal_number=None, last_name=мамро
+name [rule2]:first_name=конрад, regnal_number=None, last_name=монтферратский
+name [rule2]:first_name=эварист, regnal_number=None, last_name=фрагонар
+name [rule2]:first_name=леопольд, regnal_number=V, last_name=None
+name [rule2]:first_name=филипп, regnal_number=None, last_name=август
+name [rule2]:first_name=конрад, regnal_number=None, last_name=монтферратский
+name [rule2]:first_name=филипп, regnal_number=II, last_name=август
+name [rule2]:first_name=леопольд, regnal_number=V, last_name=None
+name [rule2]:first_name=леопольд, regnal_number=V, last_name=None
+name [rule2]:first_name=себастьен, regnal_number=None, last_name=мамро
+name [rule2]:first_name=конрад, regnal_number=None, last_name=монтферратский
+name [rule2]:first_name=конрад, regnal_number=None, last_name=монферратский
+name [rule2]:first_name=леопольд, regnal_number=V, last_name=None
+name [rule2]:first_name=леопольд, regnal_number=V, last_name=None
+========
+name [rule3]:title=император, name=Фридрих I
+name [rule3]:title=король, name=Филипп II Август
+name [rule3]:title=король, name=Ричард I
+name [rule3]:title=король, name=Филипп II Август
+name [rule3]:title=король, name=Генрих II
+name [rule3]:title=короля, name=Генриха II
+name [rule3]:title=Король, name=Ричард
+name [rule3]:title=император, name=Фридрих I
+name [rule3]:title=императора, name=Фридриха
+name [rule3]:title=императора, name=Исаака
+name [rule3]:title=императора, name=Исаака Ангела
+name [rule3]:title=королю, name=Ричарду
+name [rule3]:title=король, name=Иоанн
