@@ -1,0 +1,1028 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/"
+     xml:base="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:wot_characters="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/kurush/ontologies/2024/3/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters">
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Relation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:label>Вражда</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Follower -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Follower">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Hierarchy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:label>Последователь</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Hierarchy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Hierarchy">
+        <rdfs:label>Иерархия</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Married -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Married">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#family_connection"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label>Женаты</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#OrderMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#OrderMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Член Ордена</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Relation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Relation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label>Отношения</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Subject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Subject">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom"/>
+        <rdfs:label>Подданный</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Union -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Union">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Relation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:label>Союз</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Hierarchy"/>
+        <rdfs:label>Член</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#family_connection -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#family_connection">
+        <rdfs:label>Семейная связь</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#isAncestor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#isAncestor">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#family_connection"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#isChild"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:label>Является предком</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#isChild -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#isChild">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#family_connection"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:label>Является потомком</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Правитель -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Правитель">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Hierarchy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <rdfs:label>Маг</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTRace"/>
+        <rdfs:label>Человек</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ogier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ogier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTRace"/>
+        <rdfs:label>Огир</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#People">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Народ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Trollok -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Trollok">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTRace"/>
+        <rdfs:label>Троллок</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdfs:comment>Персонаж &quot;Колеса Времени&quot;</rdfs:comment>
+        <rdfs:label>Персонаж</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Королевство</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTOrder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTOrder">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Орден</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTRace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTRace">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <rdfs:label>Раса</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ailmen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ailmen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#People"/>
+        <rdfs:label>Айил</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Avienda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Avienda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Married rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#RandAlThor"/>
+        <wot_characters:WOTMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ailmen"/>
+        <foaf:firstName>Авиенда</foaf:firstName>
+        <rdfs:label>Авиенда</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#BlackTower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#BlackTower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTOrder"/>
+        <wot_characters:AtWar rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <rdfs:label>Черная башня</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Bornhald -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Bornhald">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteCloacks"/>
+        <foaf:firstName>Дейн</foaf:firstName>
+        <foaf:lastName>Борнхальд</foaf:lastName>
+        <rdfs:label>Борнхальд</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Egwaine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Egwaine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:firstName>Эгвейн</foaf:firstName>
+        <rdfs:label>Эгвейн</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Elayne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Elayne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Married rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#RandAlThor"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:firstName>Илейн</foaf:firstName>
+        <foaf:lastName>Траканд</foaf:lastName>
+        <rdfs:label>Илэйн</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Faily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Faily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Married rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Perrin"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Saldeia"/>
+        <foaf:firstName>Фейли</foaf:firstName>
+        <rdfs:label>Фейли</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Galad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Galad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteCloacks"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <wot_characters:isChild rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Morgase"/>
+        <foaf:firstName>Галад</foaf:firstName>
+        <foaf:lastName>Дамодред</foaf:lastName>
+        <rdfs:label>Галад</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Garet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Garet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Married rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Syan"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:firstName>Гарет</foaf:firstName>
+        <foaf:lastName>Брин</foaf:lastName>
+        <rdfs:label>Гарет</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Gavin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Gavin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <wot_characters:isChild rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Morgase"/>
+        <foaf:firstName>Гавин</foaf:firstName>
+        <foaf:lastName>Дамодред</foaf:lastName>
+        <rdfs:label>Гавин</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Loyal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Loyal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ogier"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <foaf:firstName>Лойал</foaf:firstName>
+        <rdfs:label>Лойал</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Mat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Mat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+        <foaf:firstName>Мэт</foaf:firstName>
+        <foaf:lastName>Коутон</foaf:lastName>
+        <rdfs:label>Мэт</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Min -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Min">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Married rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#RandAlThor"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Кайриэн"/>
+        <foaf:firstName>Мин</foaf:firstName>
+        <rdfs:label>Мин</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Moiraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Moiraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Кайриэн"/>
+        <foaf:firstName>Морейн</foaf:firstName>
+        <foaf:lastName>Дамодред</foaf:lastName>
+        <rdfs:label>Морейн</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Morgase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Morgase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:isAncestor rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Elayne"/>
+        <wot_characters:Правитель rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:firstName>Моргейз</foaf:firstName>
+        <foaf:gender>ж</foaf:gender>
+        <foaf:lastName>Траканд</foaf:lastName>
+        <rdfs:label>Моргейз</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Nainive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Nainive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:firstName>Найнив</foaf:firstName>
+        <rdfs:label>Найнив</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Pedron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Pedron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Амадиция"/>
+        <wot_characters:Правитель rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteCloacks"/>
+        <foaf:firstName>Педрон</foaf:firstName>
+        <foaf:lastName>Найол</foaf:lastName>
+        <rdfs:label>Педрон Найол</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Perrin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Perrin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+        <foaf:firstName>Перрин</foaf:firstName>
+        <foaf:lastName>Айбара</foaf:lastName>
+        <rdfs:label>Перрин</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#RandAlThor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#RandAlThor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <wot_characters:Правитель rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#BlackTower"/>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+        <foaf:firstName>Ранд</foaf:firstName>
+        <foaf:lastName>Ал&apos;тор</foaf:lastName>
+        <foaf:name>Ранд</foaf:name>
+        <rdfs:label>Ранд</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Saldeia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Saldeia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom"/>
+        <rdfs:label>Салдэя</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Seanchan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Seanchan">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom"/>
+        <wot_characters:AtWar rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <wot_characters:AtWar rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Амадиция"/>
+        <wot_characters:AtWar rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <wot_characters:AtWar rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Кайриэн"/>
+        <rdfs:label>Шончан</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Syan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Syan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Правитель rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+        <foaf:firstName>Суан</foaf:firstName>
+        <foaf:lastName>Санчей</foaf:lastName>
+        <rdfs:label>Суан</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Taim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Taim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:OrderMember rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#BlackTower"/>
+        <foaf:firstName>Мазрим</foaf:firstName>
+        <foaf:lastName>Таим</foaf:lastName>
+        <rdfs:label>Мазрим</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Tam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Tam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Subject rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор"/>
+        <wot_characters:isAncestor rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#RandAlThor"/>
+        <foaf:firstName>Тэм</foaf:firstName>
+        <foaf:gender>м</foaf:gender>
+        <foaf:lastName>Ал&apos;тор</foaf:lastName>
+        <rdfs:label>Тэм</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Tuon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Tuon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTCharacter"/>
+        <wot_characters:Правитель rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Seanchan"/>
+        <rdfs:label>Туон</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteCloacks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteCloacks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTOrder"/>
+        <rdfs:label>Белоплащники</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTOrder"/>
+        <rdfs:label>Белая башня</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Амадиция -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Амадиция">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Андор">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Кайриэн -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Кайриэн">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTKingdom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/b">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#OrderMember"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteCloacks"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Trollok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Ogier"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S4</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/b"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/a"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/b"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S8</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#BlackTower"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S7</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WhiteTower"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#ForceWielder"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Правитель"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#WOTMember"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/a"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Follower"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Правитель"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#OrderMember"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S5</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Trollok"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#Human"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters#AtWar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/kurush/ontologies/2024/3/wot_characters/y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
